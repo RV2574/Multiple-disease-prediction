@@ -18,9 +18,9 @@ working_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Load the models
 try:
-    diabetes_model = pickle.load(open('C:/Users/Rhythm/Desktop/nsp ml/mdps/saved models/diabetes_model.sav', 'rb'))
-    heart_disease_model = pickle.load(open('C:/Users/Rhythm/Desktop/nsp ml/mdps/saved models/heart_model.sav', 'rb'))
-    parkinsons_model = pickle.load(open('C:/Users/Rhythm/Desktop/nsp ml/mdps/saved models/parkinsons_model.sav', 'rb'))
+    diabetes_model = pickle.load(open('saved models\diabetes_model.sav', 'rb'))
+    heart_disease_model = pickle.load(open('saved models\heart_model.sav', 'rb'))
+    parkinsons_model = pickle.load(open('saved models\parkinsons_model.sav', 'rb'))
 except Exception as e:
     st.error("Error loading models: " + str(e))
     st.stop()
