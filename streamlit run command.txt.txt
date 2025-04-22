@@ -1,0 +1,2 @@
+cd "C:/Users/Rhythm/Desktop/nsp ml/mdps"
+streamlit run "multiple-disease-prediction-system.py.py"
