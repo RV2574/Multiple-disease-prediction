@@ -78,7 +78,7 @@ if selected == 'Heart Disease Prediction':
     col1, col2, col3 = st.columns(3)
 
     features = [
-        ("Age", float), ("Sex", float), ("Chest Pain types", float),
+        ("Age", float), ("Sex", str), ("Chest Pain types", float),
         ("Resting Blood Pressure", float), ("Serum Cholesterol (mg/dl)", float),
         ("Fasting Blood Sugar > 120 mg/dl", float), ("Resting ECG", float),
         ("Max Heart Rate Achieved", float), ("Exercise Induced Angina", float),
